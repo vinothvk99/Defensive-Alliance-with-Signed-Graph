@@ -1,3 +1,9 @@
-# RCS_Signed_Graph
-Title : Signed Graph Algorithm
-This repository is used for 3rd semester research case purpose. 
+# Research Case Study Abstract 
+This research project is about implementing algorithms for signed graphs. 
+
+## Definitions 
+### Signed Graph : 
+### Balanced graph :
+### Weakly balanced graph : 
+### K-Balanced : 
+### General Information (Cycle, Path) : 
