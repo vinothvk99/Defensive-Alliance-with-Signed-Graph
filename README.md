@@ -2,11 +2,20 @@
 This research project is about implementing algorithms for signed graphs. 
 
 ## Definitions 
-### Signed Graph : 
-### Balanced graph :
-### Weakly balanced graph : 
+### Signed Graph :
+   A signed graph is a graph in which each edge has a positive or negative sign. 
+### Balanced graph : 
+   We define an s-graph (containing any number of points) as balanced if all of its cycles are positive.
+### Structure Theorem: 
+   An s-graph is balanced if and only if its points can be separated into two mutually exclusive subsets such that each positive line joins two points of the    same subset and each negative line joins points from different subsets.
+### A cycle is positive: 
+  If it contains an even number of negative lines and is negative otherwise. Thus, in particular, a cycle containing only positive lines is positive since      the number of negative lines is zero, an even number.
+### Weakly balanced graph :
+  If there is an integer k ≥ 2 and a partition of V = V1 ∪ V2 · · · ∪ Vk, where V1, . . . , Vk are nonempty and mutually disjoint, such that any edge between   different Vi’s is negative, and any edge within each Vi is positive
 ### K-Balanced : 
-### Depeth First Search :
+  If all its cycles of length not exceeding K are positive. 
+### Depth First Search :
+  An algorithm for traversing or searching through graph or tree structures, exploring as deeply as possible along each branch before backtracking.
 ### Adjacency list : 
 ### General Information (Cycle, Path) : 
 
