@@ -2,19 +2,24 @@
 This research project is about implementing algorithms for signed graphs. 
 
 ## Definitions 
-### Signed Graph : A signed graph is a mathematical structure that represents relationships between entities, where each edge has a positive or negative sign. Positive edges typically represent friendly or positive relationships, while negative edges represent hostile or negative relationships. Signed graphs are used to model complex social, political, or interaction networks where relationships can have different polarities.
+### Signed Graph : 
+A signed graph is a mathematical structure that represents relationships between entities, where each edge has a positive or negative sign. Positive edges typically represent friendly or positive relationships, while negative edges represent hostile or negative relationships. Signed graphs are used to model complex social, political, or interaction networks where relationships can have different polarities.
 
 ### Balanced graph :
 
 ### Weakly balanced graph : 
 
-### K-Balanced : K-balanced refers to the property of a signed graph where it can be divided into k (where k is a positive integer) distinct groups or clusters. Inside each group, the relationships are predominantly positive, while between groups, they are mostly negative. It's a way to partition a signed graph into cohesive subgroups with fewer negative connections across the groups.
+### K-Balanced : 
+K-balanced refers to the property of a signed graph where it can be divided into k (where k is a positive integer) distinct groups or clusters. Inside each group, the relationships are predominantly positive, while between groups, they are mostly negative. It's a way to partition a signed graph into cohesive subgroups with fewer negative connections across the groups.
 
-### Depth First Search :Depth First Search is an algorithm used to traverse or search through a graph or tree structure. It starts at a selected node and explores as far as possible along each branch before backtracking. It's a way to systematically visit all the vertices in a graph, useful for tasks like finding paths, cycles, or connectivity information in graphs.
+### Depth First Search :
+Depth First Search is an algorithm used to traverse or search through a graph or tree structure. It starts at a selected node and explores as far as possible along each branch before backtracking. It's a way to systematically visit all the vertices in a graph, useful for tasks like finding paths, cycles, or connectivity information in graphs.
 
-### Adjacency list : An adjacency list is a way to represent a graph in data structures. In this representation, each vertex in the graph has a list of its adjacent vertices. It's a compact way to store graphs, especially sparse ones, and it's efficient for tasks like finding neighbors of a vertex.
+### Adjacency list : 
+An adjacency list is a way to represent a graph in data structures. In this representation, each vertex in the graph has a list of its adjacent vertices. It's a compact way to store graphs, especially sparse ones, and it's efficient for tasks like finding neighbors of a vertex.
 
-### General Information (Cycle, Path) : In the context of graphs, a "cycle" is a closed path that starts and ends at the same vertex, meaning you can follow edges to return to your starting point. A "path" is a sequence of vertices where each adjacent pair is connected by an edge. Paths can be open (from one vertex to another) or closed (a cycle). These concepts are fundamental in graph theory for understanding connectivity and structure in graphs.
+### General Information (Cycle, Path) : 
+In the context of graphs, a "cycle" is a closed path that starts and ends at the same vertex, meaning you can follow edges to return to your starting point. A "path" is a sequence of vertices where each adjacent pair is connected by an edge. Paths can be open (from one vertex to another) or closed (a cycle). These concepts are fundamental in graph theory for understanding connectivity and structure in graphs.
 
 # Reference 
 ## Files Shared By Prof.  
