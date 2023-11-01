@@ -6,8 +6,10 @@ This research project is about implementing algorithms for signed graphs.
 A signed graph is a mathematical structure that represents relationships between entities, where each edge has a positive or negative sign. Positive edges typically represent friendly or positive relationships, while negative edges represent hostile or negative relationships. Signed graphs are used to model complex social, political, or interaction networks where relationships can have different polarities.
 
 ### Balanced graph :
+An Signed-graph is balanced if and only if its points can be separated into two mutually exclusive subsets such that each positive line joins two points of the same subset and each negative line joins points from different subsets.
 
-### Weakly balanced graph : 
+### Weakly balanced graph :
+A graph is weakly balanced if there are no cycles in the graph with exactly one negative edge.Also its vertices can be split into k>=1 groups(clusters), such that edges within groups are positive and edges between groups are negative.
 
 ### K-Balanced : 
 K-balanced refers to the property of a signed graph where it can be divided into k (where k is a positive integer) distinct groups or clusters. Inside each group, the relationships are predominantly positive, while between groups, they are mostly negative. It's a way to partition a signed graph into cohesive subgroups with fewer negative connections across the groups.
